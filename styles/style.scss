@@ -1,12 +1,19 @@
 
 
 @import url(https://fonts.googleapis.com/css?family=Patua+One|Audiowide);
+
+$default-font: "Audiowide", cursive;
+
 h1 {
     text-align: center;
     color: navy;
-    font-family: "Audiowide", cursive; }
+    font-family: $default-font;
+}
+
+
 
 #text-box {
+    font-family: $default-font;
     margin: 0 auto;
     margin-top: 50px;
     background-color: transparent;
@@ -16,7 +23,7 @@ h1 {
 }
 
 #location, #condition {
-    font-family: 'Patua One', cursive;
+    font-family: $default-font;
     font-size: 15px;
     text-align: center;
 }
@@ -27,13 +34,13 @@ h1 {
 }
 
 #tempFHeader {
-    font-family: 'Patua One', cursive;
+    font-family: $default-font;
     font-size: 50px;
     text-align: center;
 }
 
 #tempCHeader {
-    font-family: 'Patua One', cursive;
+    font-family: $default-font;
     font-size: 50px;
     text-align: center;
 }
@@ -46,7 +53,7 @@ h1 {
     width: 100%;
     margin-top: 50px;
     text-align: center;
-    font-family: "Audiowide", cursive;
+    font-family: $default-font;
 }
 
 #buttonWrapper {

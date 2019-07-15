@@ -5,6 +5,7 @@ h1 {
   font-family: "Audiowide", cursive; }
 
 #text-box {
+  font-family: "Audiowide", cursive;
   margin: 0 auto;
   margin-top: 50px;
   background-color: transparent;
@@ -13,7 +14,7 @@ h1 {
   width: 100%; }
 
 #location, #condition {
-  font-family: 'Patua One', cursive;
+  font-family: "Audiowide", cursive;
   font-size: 15px;
   text-align: center; }
 
@@ -22,12 +23,12 @@ h1 {
   height: 75px; }
 
 #tempFHeader {
-  font-family: 'Patua One', cursive;
+  font-family: "Audiowide", cursive;
   font-size: 50px;
   text-align: center; }
 
 #tempCHeader {
-  font-family: 'Patua One', cursive;
+  font-family: "Audiowide", cursive;
   font-size: 50px;
   text-align: center; }
 
