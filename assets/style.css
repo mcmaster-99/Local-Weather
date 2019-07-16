@@ -79,7 +79,7 @@ h1 {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   #title h1 {
-    font-size: 25px; }
+    font-size: 15px; }
   #text-box {
     margin: 0 auto;
     margin-top: 50px !important;
@@ -98,6 +98,8 @@ h1 {
   #tempCHeader {
     font-family: 'Patua One', cursive;
     font-size: 15px; }
+  .row {
+    font-size: 10px; }
   .lows {
     color: black; }
   .container {
@@ -105,7 +107,7 @@ h1 {
     margin-top: 50px;
     font-family: "Audiowide", cursive; }
   .col-xs-2 {
-    font-size: 15px; }
+    font-size: 9px; }
   #buttonWrapper {
     width: 100px;
     margin-top: 50px !important;

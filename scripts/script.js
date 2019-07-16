@@ -58,6 +58,8 @@ $(document).ready(function() {
 
                 $("#tempF").html(temp_f);
 
+                console.log(data);
+
                 // Set and hide for toggling between F and C
                 $("#tempC").html(temp_c);
                 $("#tempC").hide();
@@ -66,16 +68,25 @@ $(document).ready(function() {
                 $("#condition").html(condition);
 
                 // Icon is displayed based on the condition.
-                if (condition === "Clouds") {
-                    $("#conditionIcon").css({"background-image" : "url(https://image.flaticon.com/icons/svg/136/136701.svg)",
+                switch (condition) {
+                    case 'Mist':
+                        $("#conditionIcon").css({"background-image" : "url(https://image.flaticon.com/icons/svg/136/136701.svg)",
                                         "background-repeat" : "no-repeat",
                                         "width" : "100%",
                                         "background-position" : "center"});
-                } else if (condition === "Clear") {
-                    $("#conditionIcon").css({"background-image" : "url(https://image.flaticon.com/icons/svg/136/136723.svg)",
+                        break;
+                    case 'Clouds':
+                        $("#conditionIcon").css({"background-image" : "url(https://image.flaticon.com/icons/svg/136/136701.svg)",
                                         "background-repeat" : "no-repeat",
                                         "width" : "100%",
                                         "background-position" : "center"});
+                        break;
+                    case 'Clear':
+                        $("#conditionIcon").css({"background-image" : "url(https://image.flaticon.com/icons/svg/136/136723.svg)",
+                                        "background-repeat" : "no-repeat",
+                                        "width" : "100%",
+                                        "background-position" : "center"});
+                        break;
                 }
             }
         })

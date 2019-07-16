@@ -103,7 +103,7 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (orientation: portrait) {
     #title h1 {
-        font-size: 25px;
+        font-size: 15px;
     }
     #text-box {
         margin: 0 auto;
@@ -128,6 +128,9 @@ and (orientation: portrait) {
         font-family: 'Patua One', cursive;
         font-size: 15px;
     }
+    .row {
+        font-size: 10px;
+    }
     .lows {
         color: black;
     }
@@ -137,7 +140,7 @@ and (orientation: portrait) {
         font-family: "Audiowide", cursive;
     }
     .col-xs-2 {
-        font-size: 15px; 
+        font-size: 9px; 
     }
     #buttonWrapper {
         width: 100px;
